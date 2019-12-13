@@ -94,7 +94,7 @@ def binary_to_hex(binary_val):
     if len(hex_result) < 5:
         for i in range(5 - len(hex_result)):
             hex_result = '0' + hex_result
-    return '0x' + hex_result
+    return hex_result
 
 
 def write_file(result):
